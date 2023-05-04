@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/Style.css">
+    <title>JSM</title>
+    <audio autoplay loop id="audiodefondo" src="music/10873824_MotionElements_soft-calm-minimal_preview.mp3"></audio>
+</head>
+<body>
+
+    <header>
+        <section class="partedellogo">
+            <section class="logo">
+                <img src="images/LOGO.png" alt="logoDeLaEmpresa" onclick="location.reload()">
+            </section>
+        </section>
+        <section class="barradebusqueda" id="barradebusquedaanimation"> 
+            <img src="images/busqueda.png" alt="busqueda" id="iconodebusqueda">
+            <input type="search" autofocus placeholder="Busqueda" id="barradebusqueda">
+        </section>
+        <section class="botonesderegistro">
+            <button id="login" onclick="displayon('showlogininfo')">Login</button>
+            <button id="register" onclick="displayon('showregisterinfo')">Register</button>
+        </section>
+        <section class="settings">
+            <img src="images/settings.png" alt="settings" id="settings" onclick="displayon('showsettingsinfo')">
+            <img src="images/perfil.png" onclick="displayon('showprofileinfo')" alt="" id="perfil">
+        </section>
+    </header>
+    <div class="partebaja">
+        <section class="streamers">
+            <div class="titulolistadestreamers">
+                <h1>STREAMERS ON</h1>
+            </div>
+            <nav class="listadestreamers">
+                <ul>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">JuaneszzzYT </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>3.218.321 viewing</h3>
+                    </section>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">xXSN4IP3RXx </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>1.232.455 viewing</h3>
+                    </section>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">Xamu3000 </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>3.218.321 viewing</h3>
+                    </section>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">Xamu3000 </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>3.218.321 viewing</h3>
+                    </section>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">JuaneszzzYT </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>3.218.321 viewing</h3>
+                    </section>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">xXSN4IP3RXx </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>1.232.455 viewing</h3>
+                    </section>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">Xamu3000 </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>3.218.321 viewing</h3>
+                    </section>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">JuaneszzzYT </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>3.218.321 viewing</h3>
+                    </section>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">xXSN4IP3RXx </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>1.232.455 viewing</h3>
+                    </section>
+                    <section class="streamer1">
+                        <div class="streamlive">
+                            <li id="streamer1">Xamu3000 </li>
+                            <p>🔴live</p>
+                        </div>
+                        <h3>3.218.321 viewing</h3>
+                    </section> 
+                </ul>
+            </nav>
+        </section>
+        
+        <section class="partedelmedio">
+            <div class="categorias">
+                <div class="titulocategorias">
+                    <h1>Categorias</h1>
+                </div>
+                <div class="seccionesdecategorias">
+                    <button id="juegos">JUEGOS</button>
+                    <button id="music">MUSIC</button>
+                    <button id="sport">SPORT</button>
+                </div>
+            </div>
+            <!-- <div class="linea"></div> -->
+            <div class="directos">
+                <div class="titulodirectos">
+                    <h1>directos</h1>
+                </div>
+                <section class="streamspredeterminados">
+                    <div class="streamer1inicio">
+                        <h3>categoria</h3>
+                        <div class="scrollstreams" id="scrolldown">
+                            <section class="listadestreams">
+                                <p>⭕live</p>
+                                <video  controls src="images/montanismo-1409.mp4"  class="videos" id="video1"  ></video>
+                                <h3>Nombre del streamer</h3>
+                            </section>
+                            <section class="listadestreams">
+                                <video  controls src="images/montanismo-1409.mp4"  class="videos" id="video1"  ></video>
+                                <h3>Nombre del streamer</h3>
+                            </section>
+                            <section class="listadestreams">
+                                <video  controls src="images/montanismo-1409.mp4"  class="videos" id="video1"  ></video>
+                                <h3>Nombre del streamer</h3>
+                            </section>
+                        </div>
+                        
+                    </div>
+                    <div class="streamer2inicio">
+                        <h3>categoria</h3>
+                        <div class="scrollstreams">
+                            <section class="listadestreams">
+                                <p>⭕live</p>
+                                <video  controls src="images/video-juegos-89894.mp4" class="videos" id="video2"></video>
+                                <h3>Nombre del streamer</h3>
+                            </section>
+                            <section class="listadestreams">
+                                <video  controls src="images/video-juegos-89894.mp4" class="videos" id="video2"></video>
+                                <h3>Nombre del streamer</h3>
+                            </section>
+                            <section class="listadestreams">
+                                <video  controls src="images/video-juegos-89894.mp4" class="videos" id="video2"></video>
+                                <h3>Nombre del streamer</h3>
+                            </section>
+                        </div>
+                        
+                    </div>
+                    <div class="streamer3inicio">
+                        <h3>categoria</h3>
+                        <div class="scrollstreams">
+                            <p>⭕live</p>
+                            <section class="listadestreams">
+                                <video  controls src="images/placa-giratoria-8437.mp4" class="videos" id="video3"></video>
+                                <h3>Nombre del streamer</h3>
+                            </section>
+                            <section class="listadestreams">
+                                <video  controls src="images/placa-giratoria-8437.mp4" class="videos" id="video3"></video>
+                                <h3>Nombre del streamer</h3>
+                            </section>
+                            <section class="listadestreams">
+                                <video  controls src="images/placa-giratoria-8437.mp4" class="videos" id="video3"></video>
+                                <h3>Nombre del streamer</h3>
+                            </section>
+                        </div>
+                        
+                    </div>
+                </section>
+            </div>
+        </section>
+        
+        <div class="videodefondo">
+            <video autoplay loop src="images/juego-128552.mp4"></video>
+        </div>
+         <div class="videodefondo2">
+            <video autoplay loop src="images/video-juegos-89894.mp4"></video>
+        </div> 
+    </div>
+
+<!-- MENUS QUE NO ESTAN EN EL DISPLAY INICIAL -->
+
+
+
+
+<!-- MENU DE LOGIN -->
+    <div class="posiciondelacaja"  id="showlogininfo">
+        <button class="cerrar" onclick="displayoff('showlogininfo')">
+                    <img src="images/close-icon-29.png" alt="">
+        </button>
+        <div class="fondo" id="fondo">
+            <div class="menudelogin">
+                <h1>BIENVENIDO DE NUEVO</h1>
+                <div class="camposdelogin">
+                    <div class="inputsdelogin">
+                        <input type="email" placeholder="Ingresa tu email">
+                        <input type="password" placeholder="Ingresa tu contraseña" id="password">
+                        <button onclick="showtipetext('password','mostrarcontraseña')" id="mostrarcontraseña"><img src="images/mostrar contra.png" alt="" ></button>
+                    </div>
+                    
+                    <button id="ingresar">INGRESAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--MENU DE REGISTER-->
+    <div class="posiciondelacaja1" id="showregisterinfo">
+        <button class="cerrar" onclick="displayoff('showregisterinfo');">
+                    <img src="images/close-icon-29.png" alt="">
+        </button>
+        <form class="fondo1" id="fondo1">
+            <div class="menuderegister">
+                <h1>BIENVENIDO</h1>
+                <div class="camposderegister">
+                    <div class="inputsderegister">
+                        <input type="email" placeholder="Ingresa tu email" required>
+                        <input type="text" placeholder="Ingresa tu nombre">
+                        <input type="password" placeholder="Ingresa tu contraseña" id="password1">
+                        <button onclick="showtipetext('password1','mostrarcontraseña1')" id="mostrarcontraseña1"><img src="images/mostrar contra.png" alt="" ></button>
+                    </div>
+                    
+                    <button id="ingresar1">INGRESAR</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- MENU DE AJUSTES -->
+    <div class="posiciondelacaja2" id="showsettingsinfo">
+        <button class="cerrar" onclick="displayoff('showsettingsinfo');">
+            <img src="images/close-icon-29.png" alt="">
+        </button>
+        <div class="volumebar" id="volumebar">
+            <input  type="range" id="rangevolume" min = "0" max="1" step="0.001"  value="0.1" >
+        </div>
+        <div class="fondo2" id="fondo2">
+            <div class="menudesettings">
+                <h1>SETTINGS</h1>
+                <div class="camposdesettings">
+                    <button class="tema">
+                        <h2>TEMA</h2>
+                        <img src="images/theme.png" alt="theme button" onclick="tema()" >
+                    </button>
+                    <button class="perfildesettings">
+                        <h2>PERFIL</h2>
+                        <img src="images/perfil.png" alt="perfil image">
+                    </button>
+                    <button class="musicvolume">
+                        <h2>VOLUMEN</h2>
+                        <img src="images/volume.png" alt="volumen de fondo" onclick="displayonandoff('volumebar')">
+                    </button>
+                    <button class="logout">
+                        <h2>LOG OUT</h2>
+                        <img src="images/logout.png" alt="log out">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MENU DE PERFIL -->
+    <div class="posiciondelacaja3" id="showprofileinfo">
+      <button class="cerrar" onclick="displayoff('showprofileinfo');">
+        <img src="images/close-icon-29.png" alt="">
+      </button>
+      <div class="fondo3" id="fondo3">
+        <div class="menudeperfil">
+          <section class="basicinfo">
+            <div class="profileimage">
+              <h1>mi perfil</h1>
+              <img src="images/fotodeperfil.jpeg" alt="imagen de perfil">
+            </div>
+            <div class="textinfo">
+              <h1>BIOGRAFIA</h1>
+              <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam autem ducimus soluta, voluptatem repellat unde iste ut debitis quas, nam illo voluptatum velit deserunt aspernatur assumenda obcaecati? Harum, mollitia quasi.</P>
+            </div>
+          </section>
+          <section class="botonesinfoprofile">
+
+            <div class="opcion">
+                <img src="images/usuario.png" alt="" class="icon">
+                <h3>Mi Cuenta</h3>
+            </div>
+            <div class="opcion">
+                <img src="images/configuraciones.png" alt="" class="icon">
+                <h3>Configuracion de la cuenta</h3>
+            </div>
+            <div class="opcion">
+                <img src="images/anadir-amigo.png" alt="" class="icon">
+                <h3>Subscripciones</h3>
+            </div>
+
+
+          </section>
+        </div>
+      </div>
+    </div>
+
+</body>
+<script src="JS/desplieguelogin.js"></script>   
+</html>
+
+
+
+
